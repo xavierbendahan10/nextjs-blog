@@ -1,14 +1,26 @@
----
-title: '  A simple blog with NextJs'
-date: '2021-08-02'
----
+#   A simple blog with NextJs
+###### date: '2021-08-02'
 
-**For Compile....** 
-First , you need to make sure you have node installed , then check node -v (version node) else visit [nodejs.org](https://nodejs.org/es/download/) 
 
-then ....
-you see all dependences dependencies in package.json in key = 'dependencies' if you don't have any dependencies installed then use the command npm install $depdendencies (example : ray-matter).
+### For Compile
+First , you need to make sure you have node installed , then check
+```
+node -v 
+```
+else visit [nodejs.org](https://nodejs.org/es/download/) 
 
-***For Run**
-- npm run build (for compile and generate code static HTML)
-- npm run dev   (for wake up local server : check [localhost](http://localhost:3000/) )
+**then ....**
+you see all dependences dependencies in package.json ,  if you don't have any dependencies installed then use the command npm install $dependences (example : npm install gray-matter).
+
+### For Run
+
+for compile and generate code static HTML
+```
+npm run build 
+```
+
+for run in dev
+
+```
+npm run dev 
+```
